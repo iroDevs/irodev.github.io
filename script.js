@@ -17,6 +17,7 @@ var typed5 = new Typed('#texto-title', {
   smartBackspace: false,
   loop: false
 });
+//hospedagem
 
 
 
