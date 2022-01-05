@@ -371,14 +371,13 @@ nav li:last-child{
 
 
 body {
-background:#fff;
+background:rgb(224, 224, 224);
 font-family: 'Josefin Sans', sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -387,7 +386,7 @@ font-family: 'Josefin Sans', sans-serif;
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #2693f3;
+  background-color: #0671cf;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -398,7 +397,6 @@ font-family: 'Josefin Sans', sans-serif;
 .container {
   padding: 10px 40px;
   position: relative;
-  background-color: #fff;
   width: 50%;
 }
 
@@ -868,7 +866,6 @@ footer{
 	background-color: #131622;
 	color: white;
 	text-align: center;
-	background: linear-gradient(to bottom,#284e7a, #000 100%);
 	padding: 60px 0;
 	font-family: 'Josefin Sans', sans-serif;
 	display: flex;

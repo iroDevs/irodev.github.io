@@ -305,8 +305,6 @@ nav li:last-child{
 /****about***/
 #about{
     padding: 20px;
-    /*background-color: #f7f7f7;*/
-    background: #000;
     margin-bottom: 20px;
 }
 #two-cols{
@@ -315,9 +313,7 @@ nav li:last-child{
     justify-content: center;
     align-items: center;
 }
-.about-image{
-    
-}
+
 
 .about-bio{
     width: 65%;
@@ -357,7 +353,7 @@ nav li:last-child{
 
 
 body {
-background:#000;
+background:rgb(17, 33, 37);
 font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -373,7 +369,7 @@ font-family: 'Josefin Sans', sans-serif;
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #2693f3;
+  background-color: #1d3346;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -384,7 +380,7 @@ font-family: 'Josefin Sans', sans-serif;
 .container {
   padding: 10px 40px;
   position: relative;
-  background-color: black;
+ 
   width: 50%;
 }
 
@@ -395,7 +391,7 @@ font-family: 'Josefin Sans', sans-serif;
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #2693f3;
+  background-color: #1f4668;
   border: 4px solid blue;
   top: 15px;
   border-radius: 50%;
@@ -449,11 +445,11 @@ font-family: 'Josefin Sans', sans-serif;
 .content {
   padding: 20px 30px;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #2693f3;
+  background-color: #112d47;
   position: relative;
   border-radius: 6px;
   line-height: 2;
-  color: #000;
+  color: rgb(209, 208, 208);
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -579,7 +575,6 @@ font-family: 'Josefin Sans', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     line-height: 2;
-    background: #000;
     color: white;
 }
 #Skills ul.grid{
