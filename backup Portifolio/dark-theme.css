@@ -348,7 +348,7 @@ nav li:last-child{
 		opacity: 1;
 	}
 
-/***Educational Timeline*****/
+
 
 
 
@@ -357,14 +357,13 @@ background:rgb(17, 33, 37);
 font-family: 'Josefin Sans', sans-serif;
 }
 
-/* The actual timeline (the vertical ruler) */
+
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
   position: absolute;
@@ -376,7 +375,7 @@ font-family: 'Josefin Sans', sans-serif;
   margin-left: -3px;
 }
 
-/* Container around content */
+
 .container {
   padding: 10px 40px;
   position: relative;
@@ -384,7 +383,7 @@ font-family: 'Josefin Sans', sans-serif;
   width: 50%;
 }
 
-/* The circles on the timeline */
+
 .container::after {
   content: '';
   position: absolute;
@@ -398,17 +397,17 @@ font-family: 'Josefin Sans', sans-serif;
   z-index: 1;
 }
 
-/* Place the container to the left */
+
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
+
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+
 .left::before {
   content: " ";
   height: 0;
@@ -422,7 +421,7 @@ font-family: 'Josefin Sans', sans-serif;
   border-color: transparent #2693f3 transparent #2693f3;
 }
 
-/* Add arrows to the right container (pointing left) */
+
 .right::before {
   content: " ";
   height: 0;
@@ -436,12 +435,12 @@ font-family: 'Josefin Sans', sans-serif;
   border-color: transparent #2693f3 transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
+
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
+
 .content {
   padding: 20px 30px;
   font-family: 'Josefin Sans', sans-serif;
@@ -452,21 +451,21 @@ font-family: 'Josefin Sans', sans-serif;
   color: rgb(209, 208, 208);
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
+
 @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
+  
   .timeline::after {
   left: 31px;
   }
   
-  /* Full-width containers */
+
   .container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
   
-  /* Make sure that all arrows are pointing leftwards */
+  
   .container::before {
   left: 60px;
   border: medium solid white;
@@ -474,12 +473,12 @@ font-family: 'Josefin Sans', sans-serif;
   border-color: transparent #2693f3 transparent transparent;
   }
 
-  /* Make sure all circles are at the same spot */
+ 
   .left::after, .right::after {
   left: 15px;
   }
   
-  /* Make all right containers behave like the left ones */
+  
   .right {
   left: 0%;
   }
@@ -510,7 +509,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 
-/****HERO----HOMEPAGE***/
+
 
 #hero{
     background: gray;
@@ -568,7 +567,7 @@ font-family: 'Josefin Sans', sans-serif;
         padding: 15px 40px;
     }
 }
-/********Skills**************/
+
 #Skills{
     text-align: center;
     max-width: 800px;
@@ -632,7 +631,7 @@ font-family: 'Josefin Sans', sans-serif;
 .skills-part2 .animate__{
 	opacity: 1;
 }
-/*******Frameworks*******/
+
 .framework{
 	padding: 10px;
 	margin: 10px;
@@ -664,115 +663,6 @@ font-family: 'Josefin Sans', sans-serif;
 .fw-part2 .animate__{
 	opacity: 1;
 }
-
-/*******Portfolio******/
-
-#portfolio{
-        /*background-color: #fff;*/
-        font-family: 'Josefin Sans', sans-serif;
-        color: white;
-    }
-    #portfolio .grid li{
-        padding: 20px;
-        height: 350px;
-        border-radius: 3px;
-        background-clip: content-box;
-        background-size: cover;
-        background-color: #333;
-        color: white;
-    }
-    #portfolio.grid li a{
-        justify-content: center;
-    }
-    #portfolio ul.grid{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    #portfolio .grid li.small{
-        position: relative;
-
-        flex-basis: 50%;
-    }
-    #portfolio .grid li.large{  
-        position: relative;
-        
-        flex-basis: 50%;
-    }
-
-    #portfolio .grid li.large #lo{
-		opacity: 0;
-		padding: 10px;
-		margin: 25px;
-
-	}
-	#portfolio .grid li.large:hover #lo{
-		background-color: rgba(38,147,243,0.1);
-		color: white;
-		border:2px solid white;
-		align-items: center;
-		border-radius: 20px;
-		opacity: 0.8;
-		transition: 0.5s ease-in-out;
-	}
-	#portfolio .grid li.large #po{
-		color: white;
-	}
-	#portfolio .grid li.large:hover #po{
-		display: none;
-	}
-
-    #btnopen{
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-        color: white;
-        background-color: #131633;
-        text-decoration: none;
-        padding: 15px 30px;
-        border-radius: 8px;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: center;
-        opacity: 1;
-        border:2px solid white;
-    }
-    #btnopen:hover{
-    background-color: #2696f3;  
-    color: black;
-}
-
-    #portfolio p{
-        max-width: 800px;
-        text-align: center;
-        margin: 0 auto 35px;
-        padding: 0 20px;
-        line-height: 2;
-    }
-    @media(max-width: 1000px){
-        #portfolio .grid li.small,
-        #portfolio .grid li.large{
-            flex-basis: 100%;
-        }
-    }
-
-    .port-part1{
-		opacity: 0;
-	}
-	.port-part2{
-		opacity: 0;
-	}
-	.port-part1 .animate__{
-		opacity: 1;
-	}
-	.port-part2 .animate__{
-		opacity: 1;
-	}
-
-/***********Contact Me************************/
     
     #contact ul.grid{   
         display: flex;
@@ -823,7 +713,6 @@ font-family: 'Josefin Sans', sans-serif;
 	opacity: 1;
 }
 
-/***********download cv************************/
 #cv{
     color: white;
     background-color: #131633;
